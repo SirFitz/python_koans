@@ -15,10 +15,7 @@ import sys
 
 if __name__ == '__main__':
     if sys.version_info >= (3, 0):
-        print("\nThis is the Python 2 version of Python Koans, but you are " +
-              "running it with Python 3 or newer!\n\n"
-              "Did you accidentally use the wrong python script? \nTry:\n\n" +
-              "    python contemplate_koans.py\n")
+        print(" \n This is the Python 2 version of Python Koans, but you are " + "running it with Python 3 or newer!\n\n"  "Did you accidentally use the wrong python script? \nTry:\n\n" +  "    python contemplate_koans.py\n")
     else:
         if sys.version_info < (2, 7):
             print("\n" +
